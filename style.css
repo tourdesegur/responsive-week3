@@ -36,6 +36,7 @@ p.card-content {
 
 h1 {
   font-size: 96px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -53,6 +54,10 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+.container-projects {
+  margin-bottom: 60px;
 }
 
 .navigation-links {
@@ -108,5 +113,43 @@ p {
 }
 
 #contact {
-  margin-top: 60px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  p.card-content {
+    font-size: 14px;
+  }
+
+  .contact,
+  .hello,
+  h2.card-content {
+    font-size: 36px;
+  }
+
+  h2.card-content {
+    margin-top: 10px;
+  }
+
+  .portfolio-links a {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .img-slides {
+    margin-bottom: 20px;
+  }
+  .email-link {
+    font-size: 18px;
+  }
 }
